@@ -1,16 +1,18 @@
-# React + Vite
+# Dynamic React Clock (date-fns)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React project that displays a **live digital clock** that updates every second.  
+It also includes **CSS to center the clock on the screen** and an optional **hover “pop/rise” effect**.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### ✅ Features
+- A **dynamic clock** that updates every **1 second**
+- Time formatting using **date-fns**
+- A centered UI using **Flexbox**
+- Optional **hover animation** using `transform`
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech used
+- React
+- date-fns (for formatting dates/times)
+- CSS (Flexbox + optional transform hover effect)
