@@ -1,0 +1,30 @@
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  
+  background-color: aliceblue;
+}
+.div{
+  background-color: bisque;
+  display: flex;
+  
+  box-shadow: 2px 2px 2px 2px rgb(213, 64, 86);
+  border-radius: 10px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+  
+}
+.div :hover{
+    transform: translateY(-8px);
+
+}
+
+.p{
+  color: rgb(57, 178, 143);
+  font-size: 70px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 10px 100px;
+
+}
