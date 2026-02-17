@@ -4,7 +4,7 @@ A simple React project that displays a **live digital clock** that updates every
 It also includes **CSS to center the clock on the screen** and an optional **hover “pop/rise” effect**.
 
 
-### ✅ Features
+### Features
 - A **dynamic clock** that updates every **1 second**
 - Time formatting using **date-fns**
 - A centered UI using **Flexbox**
@@ -16,3 +16,8 @@ It also includes **CSS to center the clock on the screen** and an optional **hov
 - React
 - date-fns (for formatting dates/times)
 - CSS (Flexbox + optional transform hover effect)
+
+## screenshot(working program)
+please observe the screenshot.png file to see the clock fully functional showing the current time with minimal styling being done
+
+thanks
